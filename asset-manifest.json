@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/whatsapp-dm-redirector/static/css/main.4cfb8513.css",
+    "main.js": "/whatsapp-dm-redirector/static/js/main.a9decb9a.js",
+    "index.html": "/whatsapp-dm-redirector/index.html",
+    "main.4cfb8513.css.map": "/whatsapp-dm-redirector/static/css/main.4cfb8513.css.map",
+    "main.a9decb9a.js.map": "/whatsapp-dm-redirector/static/js/main.a9decb9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cfb8513.css",
+    "static/js/main.a9decb9a.js"
+  ]
+}
