@@ -32,7 +32,7 @@ function App() {
     <Container>
       <Row className="justify-content-center">
         <Col xs={12} md={6}>
-          <h1 className="text-center mt-5">Connect with WhatsApp in a Click!</h1>
+          <h1 className="text-center mt-5">One-Tap To Chat!</h1>
           <MobileNumberForm onAddChat={handleAddChat} />
           <ChatHistory chatHistory={chatHistory} onRemoveChat={handleRemoveChat} />
         </Col>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Button, notification } from 'antd';
 import PhoneInput from 'react-phone-number-input';
-import 'react-phone-number-input/style.css'; // Import the default styles
+import 'react-phone-number-input/style.css'; 
 import { isValidPhoneNumber, parsePhoneNumber } from 'libphonenumber-js';
 
 const MobileNumberForm = ({ onAddChat }) => {
@@ -11,9 +11,8 @@ const MobileNumberForm = ({ onAddChat }) => {
   const handleSubmit = (values) => {
     if (isValidPhoneNumber(phoneNumber)) {
       try {
-        // Parse the phone number and extract the national number
         const parsedNumber = parsePhoneNumber(phoneNumber);
-        const nationalNumber = parsedNumber ? parsedNumber.nationalNumber : '';
+        const nationalNumber = parsedNumber ? parsedNumber.number : '';
 
         onAddChat(nationalNumber);
         window.open(`https://wa.me/${nationalNumber}`, '_blank');
